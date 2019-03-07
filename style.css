@@ -1,0 +1,92 @@
+body {
+    background-image: url('header.jpg.jpg') ;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Paralax efekt */
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    min-height: 500px;
+} 
+
+.fullscreen {
+    height: 100vh;
+    width: 100vw;
+    position:fixed;
+    top:0;
+    left:0;
+}
+
+.mt-heading {
+    margin-top: 27vh;
+}
+
+.mt-bar {
+    margin-top: 25vh;
+}
+
+.mb-btn {
+    margin-bottom: 10px;
+}
+
+hr {
+    max-width: 69px;
+    min-width: 69px;
+    border: 1px solid rgb(124, 8, 0);
+}
+
+#m-heading {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(204, 158, 146);
+}
+
+.btn-primary {
+    border-color: rgb(124, 19, 0);
+    background-color: #222;
+    outline-width: 2px;
+    border-radius: 30px;
+    padding: 10px 5;
+    color: rgb(204, 158, 146);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-primary:hover {
+    border-color: rgb(124, 19, 0);
+    background-color: #333;
+    color: rgb(204, 158, 146);
+    cursor: pointer;
+}
+
+.btn-primary:active, .btn-primary:focus {
+    border-color: rgb(124, 19, 0);
+    background-color: #444 !important;
+    color: rgb(204, 158, 146);
+    border: none;
+}
+/* --------------------------------------------------media queries------------------------------------ */
+
+@media (max-width: 992px) {
+    .mt-heading {
+        margin-top: 23vh;
+    }
+}
+
+@media (max-width: 767px) {
+    .mt-heading {
+        margin-top: 16vh;
+    }
+    .mt-bar {
+        margin-top: 30vh;
+    }
+}
+
+
+
+
+
+
+/* 
+* {                                    
+    border: 1px solid black;
+} */
